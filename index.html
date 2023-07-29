@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Toss Coin</title>
+  </head>
+
+  <body>
+    <div class="container"> 
+      <h2>Toss Coin</h2>
+      <br>
+      <p> Choose between "Heads" and "Tails"</p>
+
+      <div class="contaner2">
+        <button class="Heads" onclick="
+
+        const randomNumber = Math.random();
+        let result ='';
+        if(randomNumber < 0.5){
+          result = 'heads';
+        }else{
+          result = 'tails';
+        }
+      const guess = 'heads';
+        if(guess === result){
+          alert ('You Win!!!');
+        }else{
+          alert ('You lose');
+        }
+      " ><img src="coinsImg/Heads.jpg" >
+    </button>
+      <!-- TAILS BUTTON -->
+    <button class="Tails" onclick="
+
+        const randomNumber = Math.random();
+        let result ='';
+        if(randomNumber < 0.5){
+          result = 'heads';
+        }else{
+          result = 'tails';
+        }
+      const guess = 'tails';
+        if(guess === result){
+          alert ('You Win!!!');
+        }else{
+          alert ('You lose');
+        }
+      "><img src="coinsImg/Tails.jpg" >
+    </button>
+      </div>
+      <!-- HEADSBUTTON -->
+     
+    </div>
+  
+    
+    <script>
+    
+       
+
+    </script>
+  </body>
+
+
+</html>
